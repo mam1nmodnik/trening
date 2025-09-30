@@ -8,13 +8,13 @@ export default function MyApp() {
     <div className="">
       <MyHeader />
       <main className="flex justify-center lg:mb-[150px] h-screen m-10  ">
-        <div className="max-w-[1200px] mt-[50px] flex flex-col gap-[100px]">
+        <div className="max-w-[1200px] sm:mt-[50px] flex flex-col md:gap-[100px] gap-[30px]">
           <h1 className="md:text-[40px] text-[24px] font-bold text-white leading-[110%] Montserrat">
             Выбери подходящий для себя
             <span className="text-yellow-400"> тариф</span>
           </h1>
           <div className="flex flex-col gap-[100px]">
-            <div className="flex lg:flex-row flex-col gap-[50px] items-center justify-center">
+            <div className="flex lg:flex-row flex-col sm:gap-[50px] gap-0 items-center justify-center">
               <Image
                 src="/human.svg"
                 alt="human"
