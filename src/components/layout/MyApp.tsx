@@ -18,8 +18,8 @@ export default function MyApp() {
               <Image
                 src="/human.svg"
                 alt="human"
-                width={368} // максимальная ширина картинки
-                height={368} // укажи реальную высоту svg или квадратное значение
+                width={368} 
+                height={368} 
                 className="lg:w-[368px] md:w-[300px] w-[200px] h-auto"
               />
               <Gifts />
