@@ -1,7 +1,7 @@
 "use client";
-import Image from "next/image";
 import Gifts from "@/components/GIfts";
 import MyHeader from "./MyHeader";
+import Image from "next/image";
 
 export default function MyApp() {
   return (
@@ -15,10 +15,12 @@ export default function MyApp() {
           </h1>
           <div className="flex flex-col gap-[100px]">
             <div className="flex lg:flex-row flex-col gap-[50px] items-center justify-center">
-              <img
+              <Image
                 src="/human.svg"
                 alt="human"
-                className="lg:w-[368px] md:w-[300px] w-[200px]"
+                width={368} // максимальная ширина картинки
+                height={368} // укажи реальную высоту svg или квадратное значение
+                className="lg:w-[368px] md:w-[300px] w-[200px] h-auto"
               />
               <Gifts />
             </div>

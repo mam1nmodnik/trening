@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { use, useEffect, useState } from "react";
+import {  useEffect, useState } from "react";
 
 export default function CustomCheckbox({
   setCheckBox,
@@ -11,7 +11,7 @@ export default function CustomCheckbox({
   const [checked, setChecked] = useState(false);
   useEffect(() => {
     setCheckBox(checked);
-  }, [checked]);
+  }, );
   return (
     <label className="flex items-center gap-2 cursor-pointer text-[#CDCDCD] h-fit ">
       <input
