@@ -7,7 +7,7 @@ export default function MyApp() {
   return (
     <div className="">
       <MyHeader />
-      <main className="flex justify-center lg:mb-[150px] h-screen m-10  ">
+      <main className="flex justify-center   lg:mb-[150px] m-10  ">
         <div className="max-w-[1200px] sm:mt-[50px] flex flex-col md:gap-[100px] gap-[30px]">
           <h1 className="md:text-[40px] text-[24px] font-bold text-white leading-[110%] Montserrat">
             Выбери подходящий для себя
