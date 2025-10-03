@@ -1,6 +1,15 @@
 @import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@1,14..32,500&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@1,14..32,500&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+@theme {
+  --breakpoint-xs: 320px;
+  --breakpoint-xsm: 375px;
+  --breakpoint-laptop: 64rem;
+  --breakpoint-desktop: 80rem;
+}
+
+
 :root {
   --background: #232829
 }

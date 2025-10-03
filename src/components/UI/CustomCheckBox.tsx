@@ -33,7 +33,7 @@ export default function CustomCheckbox({
       >
         {checked && <Image src="./Vector.svg" width={20} height={15} alt="" />}
       </div>
-      <p>
+      <p className="sm:text-[16px] text-[12px]">
         Я согласен с {" "}
         <span className="underline underline-offset-1">
           офертой рекуррентных платежей
