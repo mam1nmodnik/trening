@@ -9,7 +9,7 @@ export default function MyApp() {
       <MyHeader />
       <main className="flex justify-center   lg:mb-[150px]  sm:m-10  mt-5 mr-4 ml-4 mb-[20px]">
         <div className="max-w-[1216px] sm:mt-[50px] flex flex-col sm:gap-[100px] gap-[10px]">
-          <h1 className="sm:text-[40px] text-[24px] font-bold text-white leading-[130%] tracking-[130%] scale-x-100 font-stretch-expanded Montserrat">
+          <h1 className="sm:text-[40px] text-[24px] font-bold text-white leading-[130%] tracking-[0.2rem] scale-x-100 font-stretch-expanded Montserrat">
             Выбери подходящий для себя
             <span className="text-yellow-400"> тариф</span>
           </h1>

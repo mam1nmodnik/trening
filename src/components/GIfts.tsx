@@ -77,7 +77,7 @@ export default function Gifts() {
               {seconds !== 0 && procent(item.full_price, item.price)}
 
               {item.full_price == 18990 ? (
-                <p className="absolute md:right-4 md:top-3 right-2 top-0.5 Montserrat text-[#FDB056] sm:text-[22px] text-[16px] leading-[130%] tracking-[130%] scale-x-100 font-medium">
+                <p className="absolute md:right-4 md:top-3 right-2 top-0.5 Montserrat text-[#FDB056] sm:text-[22px] text-[16px] leading-[130%] tracking-[0.2rem] scale-x-100 font-medium">
                   хит!
                 </p>
               ) : null}
